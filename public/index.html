@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="text-primary font-body px-24">
+    <div> <!-- content wrapper -->
+        <div><!-- nav -->
+            <nav>
+                <figure class="w-52 px-8 pb-8">
+                    <img src="img/logo.png" alt="ColorBlind Code Logo">
+                </figure>
+                <div  class="flex justify-center md:justify-end">
+                    <ul>
+                        <li>
+                            <details>
+                                <summary>Modo Daltônico</summary>
+                                <ul>
+                                    <li><a href="">Normal</a></li>
+                                    <li><a href="">Protanopia</a></li>
+                                    <li><a href="">Deuteranopia</a></li>
+                                    <li><a href="">Tritanopia</a></li>
+                                </ul>
+                            </details>
+                        </li>
+                    </ul>
+                    <div>
+                        <a class="ml-4">Button</a>
+                    </div>
+                </div>
+            </nav>
+        </div> <!-- end nav -->
+        <main>
+            <header>
+                <img src="" alt="">
+            </header>
+            <div>
+                <div class="text-secondary font-medium">
+                    <p>Ao discutir a acessibilidade, é importante compreender a origem e a necessidade dessa questão. Indivíduos com deficiência ou incapacidade enfrentam dificuldades em realizar atividades cotidianas e em serem incluídos na sociedade, limitando seu convívio social. Portanto, é essencial que pessoas com deficiência sejam incluídas na sociedade, capacitadas a realizar as mesmas atividades que as outras pessoas ao seu redor. No entanto, a acessibilidade não se restringe apenas ao âmbito físico. Segundo a Universidade Federal do Ceará, a acessibilidade é uma condição fundamental e indispensável para qualquer processo de inclusão social e abrange múltiplas dimensões, como atitudinal, física, tecnológica, informacional, comunicacional, linguística e pedagógica, entre outras.</p><br>
+                    <p>Atualmente, o uso de ferramentas web é inevitável, uma vez que a população passa cada vez mais tempo online. Assim como qualquer outro ambiente, a internet precisa ser acessível para o maior número possível de grupos. Nos últimos anos, muitos desenvolvedores têm se preocupado com a acessibilidade em suas páginas web, incluindo pessoas com deficiência auditiva, visual e outras. O objetivo da acessibilidade web é permitir que as páginas web sejam acessíveis e navegáveis por todos os indivíduos com deficiência, que devem ser capazes de interagir da mesma forma que os demais. Uma das deficiências visuais é o daltonismo. De acordo com dados da OMS, cerca de 350 milhões de pessoas no mundo possuem essa condição, sendo 8 milhões apenas no Brasil, sendo mais comum em homens (Lavieri, 2021). Existem três tipos de daltonismo: dicromático, acromático e tricromático, os quais serão abordados posteriormente. Não há um tratamento específico para a doença, apenas óculos adaptados que ajudam a melhorar o reconhecimento das cores.</p><br>
+                    <p>Segundo a Organização Mundial da Saúde (OMS, 2011), a deficiência é complexa e não se resume a uma característica individual ou médica, mas sim a uma característica estrutural e social. Nesse contexto, a acessibilidade na web tem como objetivo permitir que qualquer indivíduo navegue em qualquer site e compreenda completamente, em igualdade de oportunidades, com segurança e autonomia (W3C, 2013). É responsabilidade dos profissionais de tecnologia considerar como suas soluções afetam as interações, buscando evitar a criação de barreiras de acesso. Portanto, esse é o foco principal deste trabalho de graduação.</p><br>
+                    <p>O objetivo principal deste projeto é desenvolver um protótipo que instrua os desenvolvedores a tornar seus projetos mais acessíveis, com foco nos daltônicos. Dessa forma, busca-se encontrar uma maneira de implementar a opção de troca de cores em uma página web, de acordo com o nível de deficiência do usuário, além de fornecer instruções sobre o uso de recursos para a identificação das cores pelos indivíduos afetados.</p>
+                </div>
+                <h1 class="text-3xl flex justify-center font-bold p-4">Usabilidade na web</h1>
+                <p class="text-secondary font-medium">A usabilidade tem como objetivo tornar sites e sistemas amigáveis e de fácil manuseio para os usuários finais. Focada na interação humano-computador, sua principal função é promover a simplicidade e praticidade (Guedes, 2020). Ao abordar a usabilidade, não se concentra apenas em um único aspecto, mas sim em englobar o maior público possível. Cada detalhe aplicado a uma tela deve ser compreendido e utilizado de forma simples. Nesse sentido, é importante mencionar as heurísticas de Nielsen, que abordam as principais nuances e "regras" que uma interface precisa seguir durante o desenvolvimento de seu design (Guedes, 2020).</p>
+                <h1 class="text-3xl flex justify-center font-bold p-4">Entenda como os principais tipos de daltonismo</h1>
+                <div class="text-secondary font-medium">
+                    <p>O daltonismo é uma condição em que a pessoa é incapaz ou tem reduzida capacidade de ver ou perceber cores normalmente. Isso leva a uma visão conhecida como "cegueira para cores" ou deficiência de visão das cores. Enquanto uma pessoa com visão normal pode identificar e distinguir cerca de 150 tons de cores diferentes, um indivíduo com daltonismo tem menos capacidade de criar misturas de cores. O daltonismo pode ser congênito ou adquirido ao longo da vida devido a doenças, exposição a substâncias tóxicas, traumas ou danos no nervo óptico. É mais comum em homens devido à hereditariedade ligada ao cromossomo X.</p>
+                    <p class="flex justify-center">Abaixo podemos observar os três principais tipos de daltonismo:</p>
+                </div>
+
+                <div class="flex justify-center gap-32 py-20"> <!-- cards -->
+                    <div class="card">
+                        <div>
+                            <span class="flex justify-center font-bold p-4">Protanopia</span>
+                        </div>
+                        <figure class="flex justify-center">
+                            <img class="w-28" src="img/PROTANOPIA.png" alt="Protanopia">
+                        </figure>
+                        <div class="mx-8 mb-8 mt-4">
+                            <p class="text-secondary font-light text-center">A protanopia causa dificuldade em distinguir as cores vermelha e verde devido a um defeito nos cones vermelhos da retina. O vermelho é visto como esverdeado ou marrom.</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div>
+                            <span class="flex justify-center font-bold p-4">Tritanopia</span>
+                        </div>
+                        <figure class="flex justify-center">
+                            <img class="w-28" src="img/TRITANOPIA.png" alt="Tritanopia">
+                        </figure>
+                        <div class="mx-8 mb-8 mt-4">
+                            <p class="text-secondary font-light text-center">Dificuldade em distinguir as cores azul e amarelo. Condição causada por um defeito nos cones azuis da retina, dificultando a distinção entre tons de azul e amarelo.</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div>
+                            <span class="flex justify-center font-bold p-4">Deuteranopia</span>
+                        </div>
+                        <figure class="flex justify-center">
+                            <img class="w-28" src="img/DEUTERANOPIA.png" alt="Deuteranopia">
+                        </figure>
+                        <div class="mx-8 mb-8 mt-4">
+                            <p class="text-secondary font-light text-center">Dificuldade em distinguir as cores verde e vermelha. É causada por um defeito nos cones verdes da retina, resultando na dificuldade em diferenciar tons de verde e vermelho.</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <h1 class="text-3xl flex justify-center font-bold p-4">Como tornar suas aplicações mais acessíveis para daltônicos</h1>
+                <h3 class="text-lg font-bold">Tente não depender apenas das cores</h3>
+                <p class="text-secondary font-medium">Há diversas maneiras de destacar conteúdos relevantes, como o uso de ícones, texto em negrito ou texturas.</p>
+                <h3 class="text-lg font-bold">Os links precisam se destacar</h3>
+                <p class="text-secondary font-medium">Para representar um link, utilize texto sublinhado e em negrito. Evite diferenciá-los apenas por cores. O mesmo princípio também se aplica a formulários, onde a validação dos campos geralmente é feita com cores como verde para sucesso e vermelho para erro. Essa abordagem visual prejudica o entendimento dos daltônicos, pois eles não conseguem diferenciar essas cores.</p>
+                <h3 class="text-lg font-bold">Se atente ao contraste e saturação</h3>
+                <p class="text-secondary font-medium">Certifique-se de que haja um bom contraste entre cores e elementos, facilitando a leitura para os usuários. Para isso, escureça as cores escuras e clareie as cores claras. No entanto, evite utilizar o máximo de contraste possível, pois isso pode atrapalhar a compreensão das informações por pessoas com dislexia. O ideal é trabalhar com um contraste mínimo de 1:4.5 (ou 1:3 para textos maiores), de acordo com as diretrizes do W3C. Além disso, aumente a saturação, brilho e matiz das cores, tornando-as facilmente distinguíveis em relação às cores ao redor.</p>
+                <h3 class="text-lg font-bold">Opte por inserir descrições em imagens e gráficos</h3>
+                <p class="text-secondary font-medium">Quando publicar imagens, é importante descrever as cores presentes para facilitar a distinção. Isso é especialmente útil para pessoas que vendem produtos online. Da mesma forma, é essencial descrever as cores em gráficos, fornecendo uma descrição para cada segmento.</p>
+                <h3 class="text-lg font-bold">A formatação do texto também é importante</h3>
+                <p class="text-secondary font-medium">Além das cores, há outras barreiras que podem dificultar o acesso à informação por parte dos usuários daltônicos. A formatação do texto pode tornar o conteúdo confuso. Portanto, leve em consideração o tamanho dos elementos e a escolha da fonte. Ao destacar informações, evite depender apenas da mudança de cor. Utilize sublinhado ou variação na textura.</p>
+                <h1 class="text-3xl flex justify-center font-bold p-4">Saiba escolher as cores corretas</h1>
+                <p class="text-secondary font-medium">Há algumas cores que, quando combinadas, não se adaptam bem na visão de um daltônico. Saiba quais cores não combinar:</p>
+ 
+                <!-- <div class="card"> card -->
+                    <div class="mt-8 grid lg:grid-cols-4 flex justify-center gap-10">
+                        <img class="w-28" src="img/verde-vermelho.png" alt="Verde e vermelho">
+                        <img class="w-28" src="img/verde-vermelho.png" alt="Verde e vermelho">
+                        <img class="w-28" src="img/verde-vermelho.png" alt="Verde e vermelho">
+                        <img class="w-28" src="img/verde-vermelho.png" alt="Verde e vermelho">
+                        <img class="w-28" src="img/verde-vermelho.png" alt="Verde e vermelho">
+                        <img class="w-28" src="img/verde-vermelho.png" alt="Verde e vermelho">
+                        <img class="w-28" src="img/verde-vermelho.png" alt="Verde e vermelho">
+                        <img class="w-28" src="img/verde-vermelho.png" alt="Verde e vermelho">
+                      <!--  <div>
+                            <figure class="flex justify-center">
+                                <img class="w-28" src="img/verde-vermelho.png" alt="Verde e vermelho">
+                            </figure>
+                            <div>
+                                <span class="text-secondary flex justify-center font-medium p-4">VERDE E VERMELHO</span>
+                            </div>
+                        </div>
+                        <div>
+                            <figure class="flex justify-center">
+                                <img class="w-28" src="img/verde-marrom.png" alt="Verde e marrom">
+                            </figure>
+                            <div>
+                                <span class="text-secondary flex justify-center font-medium p-4">VERDE E MARROM</span>
+                            </div>
+                        </div>
+                        <div>
+                            <figure class="flex justify-center">
+                                <img class="w-28" src="img/azul-roxo.png" alt="Azul e roxo">
+                            </figure>
+                            <div>
+                                <span class="text-secondary flex justify-center font-medium p-4">AZUL E ROXO</span>
+                            </div>
+                        </div>
+                        <div>
+                            <figure class="flex justify-center">
+                                <img class="w-28" src="img/verdeclaro-amarelo.png" alt="Verde claro e amarelo">
+                            </figure>
+                            <div>
+                                <span class="text-secondary flex justify-center font-medium p-4">VERDE CLARO E AMARELO</span>
+                            </div>
+                        </div>
+                        <!--<div>
+                            <figure class="flex justify-center">
+                                <img class="w-28" src="img/verde-cinza.png" alt="Verde e cinza">
+                            </figure>
+                            <div>
+                                <span class="text-secondary flex justify-center font-medium p-4">VERDE E CINZA</span>
+                            </div>
+                        </div>
+                        <div>
+                            <figure class="flex justify-center">
+                                <img class="w-28" src="img/verde-azul.png" alt="Verde e azul">
+                            </figure>
+                            <div>
+                                <span class="text-secondary flex justify-center font-medium p-4">VERDE E AZUL</span>
+                            </div>
+                        </div>
+                        <div>
+                            <figure class="flex justify-center">
+                                <img class="w-28" src="img/verde-preto.png" alt="Verde e preto">
+                            </figure>
+                            <div>
+                                <span class="text-secondary flex justify-center font-medium p-4">VERDE E PRETO</span>
+                            </div>
+                        </div>
+                        <div>
+                            <figure class="flex justify-center">
+                                <img class="w-28" src="img/azul-cinza.png" alt="Azul e cinza">
+                            </figure>
+                            <div>
+                                <span class="text-secondary flex justify-center font-medium p-4">AZUL E CINZA</span>
+                            </div>
+                        </div>-->
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
