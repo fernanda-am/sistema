@@ -9,3 +9,7 @@
 .card {
     @apply rounded-xl overflow-hidden shadow-xl w-72 h-96
 }
+
+.card2 {
+    @apply rounded-xl overflow-hidden shadow-xl max-w-screen-lg h-auto
+}
